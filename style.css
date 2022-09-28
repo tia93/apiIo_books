@@ -1,0 +1,86 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url('./asset/images.jpg');
+    font-family: 'Comfortaa', cursive;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.libro{
+    width: 80%;
+    background-color: rgba(245, 245, 245, 0.705);
+    border: 10px solid wheat;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+img{
+    height: 100px;
+}
+.titoloHtml{
+    background-color: rgba(255, 255, 255, 0.486);
+    text-align: center;
+    font-size: x-large;
+    padding: 20px;
+    /* margin: 40px 600px; */
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Comfortaa', cursive;  
+}
+
+.titolo{
+    background-color: rgba(255, 255, 255, 0.486);
+    text-align: center;
+    font-size: x-large;
+    padding: 20px;
+    margin-right: 20px;
+    /* margin: 40px 600px; */
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+
+.item{
+    margin: 10px;
+    padding: 10px;
+    font-size: medium; 
+}
+.formatiii{
+    margin: 10px;
+padding-left: 10px;
+justify-content: center;
+
+}
+
+@media only screen and (max-width: 800px ){
+    .imgg{
+        height: 200px; 
+    }
+    
+    .formatiii{
+        margin: 10px;
+        padding: 10px;
+        font-size: x-small;
+        
+
+    }
+
+    .autori{
+        margin: 10px;
+        padding: 10px;
+    }
+}
